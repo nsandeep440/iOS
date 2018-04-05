@@ -40,5 +40,23 @@ let a = InsersionSort(list) { $0 < $1 }
 print(a)
 
 
+/**
+ Performance
+ */
+/*
+ Insertion sort is really fast if the array is already sorted. but this is not true for all search algorithms
+ 
+ The worst-case and average case performance of insertion sort is O(n^2). That's because there are two nested loops in this function. Other sort algorithms, such as quicksort and merge sort, have O(n log n) performance, which is faster on large inputs.
+ 
+ Insertion sort is actually very fast for sorting small arrays. Some standard libraries have sort functions that switch from a quicksort to insertion sort when the partition size is 10 or less.
+ */
+
+
+
+
+
+
+
+
 
 
